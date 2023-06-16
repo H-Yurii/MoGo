@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header {}
+
+.header__box {
+    width: 1200px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box__logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #95E1D3;
+}
+
+.box__nav {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #95E1D3;
+}
+
+.nav__link:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F38181;
+}
+
+.main {}
+
+.info__block {
+    width: 275px;
+    height: 136px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+}
+
+.block__text {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    font-variant: all-small-caps;
+    color: #333333;
+}
+
+.block__line {
+    width: 60px;
+    height: 4px;
+    background: #F38181;
+    margin: 0 auto;
+}
+
+.benefits {
+    width: 1168px;
+    height: 253px;
+    margin: 65px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits__item {
+    display: flex;
+}
+
+.item__alarm {
+    margin-right: 20px;
+}
+
+.alarm__img {}
+
+.item__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+.item__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #B6B6B6;
+}
+
+.info__block-2 {
+    width: 1104px;
+    height: 221px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block__info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #B6B6B6;
+    margin-top: 45px;
+}
+
+.men-box {
+    width: 1210px;
+    height: 556px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 27px;
+}
+
+.box__man {
+    padding: 0 15px;
+}
+
+.box__man:nth-child(1) {
+    position: relative;
+}
+
+.box__man:nth-child(1)::after {
+    content: "";
+    width: 380px;
+    height: 470px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(#EF8B8ACC, #E5CF82CC);
+    opacity: 0.8;
+}
+
+.man__picture {
+    width: 380px;
+    height: 470px;
+}
+
+.box__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-variant: all-small-caps;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.box__text {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #B6B6B6;
+    margin-top: 10px;
+}
+
+.footer {}
+
+.footer__line {
+    background-color: #B6B6B6;
+    width: 1200px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.footer__body {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__info {
+    margin-top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #333333;
+}
+
+span {
+    color: #F38181;
+}
+.body__button {
+    background-color: #95E1D3;
+    color: #fff;
+    padding: 11px 38px;
+    cursor: pointer;
+    height: 41px;
+    width: 100%;
+    height: 100%;
+}
+
+.input {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #B6B6B6;
+    border: 1px solid #B6B6B6;
+    padding: 12px 145px 12px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer__logo {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
