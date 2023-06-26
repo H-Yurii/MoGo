@@ -406,8 +406,24 @@
     margin: 0 10px;
 }
 
+.inside-2__link {
+    margin: 0 10px;
+}
+
+.inside-3__link {
+    margin: 0 10px;
+}
+
 .inside__link img:hover {
-    filter: drop-shadow(0 0 10px #ed6c26);
+    filter: drop-shadow(0 0 10px #f8681b);
+}
+
+.inside-2__link img:hover {
+    filter: drop-shadow(0 0 10px #b433e7);
+}
+
+.inside-3__link img:hover {
+    filter: drop-shadow(0 0 10px #4b4a4a);
 }
 
 .box__title {
